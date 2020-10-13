@@ -18,8 +18,8 @@ function App({config, data}) {
                     >
                         React
                     </a>
-                    &nbsp; Widget running on <br/>
-                    <code>~ AWS Cloud! ~</code>
+                    &nbsp; Widget running on the <br/>
+                    <code>~ Cloud! ~</code>
                 </p>
                 <RecipeReviewCard data={data} config={config}/>
             </header>

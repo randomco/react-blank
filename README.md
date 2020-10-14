@@ -1,9 +1,12 @@
 # Introduction
-This is a simple React JS application.
+This is a simple React JS Material UI application.
 
-# How to Build
-**Run**
+# Checkout and Build
+**Install**
 
+	git clone https://github.com/randomco/react-blank
+	cd react-blank
+	npm install
 	npm start
 
 ___________________

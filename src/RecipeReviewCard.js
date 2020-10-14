@@ -41,7 +41,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-export default function RecipeReviewCard({config, data}) {
+export default function RecipeReviewCard({ config, data }) {
 
     const classes = useStyles();
     const [expanded, setExpanded] = React.useState(false);
@@ -58,9 +58,7 @@ export default function RecipeReviewCard({config, data}) {
                 <Card className={classes.root}>
                     <CardHeader
                         avatar={
-                            <Avatar aria-label="recipe" className={classes.avatar}>
-                                R
-                            </Avatar>
+                            <Avatar aria-label="recipe" className={classes.avatar}>R</Avatar>
                         }
                         action={
                             <IconButton aria-label="settings">
